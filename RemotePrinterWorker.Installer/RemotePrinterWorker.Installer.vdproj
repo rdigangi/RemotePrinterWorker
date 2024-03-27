@@ -15,13 +15,19 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_27C21B8E422A4B8697C80290535F3993"
+        "MsmKey" = "8:_0879A90A5EAE4496AA7F1FB609A4D045"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_2EB67621FAE34000B63B770166B76B69"
+        "MsmKey" = "8:_0C64F18028A640B3AFAC7DE0F179DCC8"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_0E96D4F27F5E47D681BE1C9DBD581C41"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -39,14 +45,14 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_520659A9FE42494293C2EAD25452259B"
-        "OwnerKey" = "8:_UNDEFINED"
+        "MsmKey" = "8:_605CA1C275CA911B08289B58C311044A"
+        "OwnerKey" = "8:_42739D2EFABD41CEB3E9986FA7088D96"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_605CA1C275CA911B08289B58C311044A"
-        "OwnerKey" = "8:_42739D2EFABD41CEB3E9986FA7088D96"
+        "MsmKey" = "8:_6AD9741EB94F4239A685FF14FE3C79E0"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -57,37 +63,31 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_8D29444C16B44EDFA65D6CE94277D612"
+        "MsmKey" = "8:_8F5C0F0FF8E741B3BCE56D4C2A35B9A7"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_B6B0EBF445B444998160AC94B2796C3B"
+        "MsmKey" = "8:_B529CE30469D45C4A83F77D5067EAEF5"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_BE120728F4C84B268D61BB4A7BCF687A"
+        "MsmKey" = "8:_D125274035FC4BABADA48CE4D44A221B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_C88F8EE62736444596E2E86EB1DF6A3E"
+        "MsmKey" = "8:_D371218B0F0B4CFD935625351903BF05"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_DF89BC3944BE497B8DA94EAE6D0AD432"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_E9C869C86CD24847AB11779B6F1184C8"
+        "MsmKey" = "8:_F72E5805362B401798FDEA4221A0C520"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -95,12 +95,6 @@
         {
         "MsmKey" = "8:_FA30997F8DB7D66F77A34A6C1541B82B"
         "OwnerKey" = "8:_42739D2EFABD41CEB3E9986FA7088D96"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_605CA1C275CA911B08289B58C311044A"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -127,6 +121,12 @@
         "OwnerKey" = "8:_FA30997F8DB7D66F77A34A6C1541B82B"
         "MsmSig" = "8:_UNDEFINED"
         }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_605CA1C275CA911B08289B58C311044A"
+        "MsmSig" = "8:_UNDEFINED"
+        }
     }
     "Configurations"
     {
@@ -145,6 +145,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -161,6 +169,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -182,7 +206,7 @@
                 {
                 "Name" = "8:.NET Framework"
                 "Message" = "8:[VSDNETMSG]"
-                "FrameworkVersion" = "8:.NETFramework,Version=v4.7.2"
+                "FrameworkVersion" = "8:.NETFramework,Version=v4.8"
                 "AllowLaterVersions" = "11:FALSE"
                 "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=863262"
                 }
@@ -190,12 +214,12 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_27C21B8E422A4B8697C80290535F3993"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0879A90A5EAE4496AA7F1FB609A4D045"
             {
-            "SourcePath" = "8:C:\\Users\\Utente\\Desktop\\RemotePrintWorker_4.8_4\\RemotePrintWorker_4.8_4\\AppSettings\\CERT\\Log4net.config"
-            "TargetName" = "8:Log4net.config"
+            "SourcePath" = "8:..\\EnvSettings\\CERT\\RemotePrintWorker.exe.config"
+            "TargetName" = "8:RemotePrintWorker.exe.config"
             "Tag" = "8:"
-            "Folder" = "8:_ECC6218041054128A64B655ADDDAD76C"
+            "Folder" = "8:_D90D317EB4E24525A639692F32F36A84"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -210,12 +234,32 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2EB67621FAE34000B63B770166B76B69"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0C64F18028A640B3AFAC7DE0F179DCC8"
             {
-            "SourcePath" = "8:C:\\Users\\Utente\\Desktop\\RemotePrintWorker_4.8_4\\RemotePrintWorker_4.8_4\\AppSettings\\CERT\\RemotePrintWorker.exe.config"
+            "SourcePath" = "8:..\\EnvSettings\\CERT\\Log4net.config"
+            "TargetName" = "8:Log4net.config"
+            "Tag" = "8:"
+            "Folder" = "8:_D90D317EB4E24525A639692F32F36A84"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0E96D4F27F5E47D681BE1C9DBD581C41"
+            {
+            "SourcePath" = "8:..\\EnvSettings\\SVIL\\RemotePrintWorker.exe.config"
             "TargetName" = "8:RemotePrintWorker.exe.config"
             "Tag" = "8:"
-            "Folder" = "8:_ECC6218041054128A64B655ADDDAD76C"
+            "Folder" = "8:_96EA4859140D41F7A6115F0E65F85BAE"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -261,26 +305,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_520659A9FE42494293C2EAD25452259B"
-            {
-            "SourcePath" = "8:C:\\Users\\Utente\\Desktop\\RemotePrintWorker_4.8_4\\RemotePrintWorker_4.8_4\\AppSettings\\COLL\\RemotePrintWorker.exe.config"
-            "TargetName" = "8:RemotePrintWorker.exe.config"
-            "Tag" = "8:"
-            "Folder" = "8:_D873AE2A90C746AC835BBEA5146E7836"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_605CA1C275CA911B08289B58C311044A"
             {
             "AssemblyRegister" = "3:1"
@@ -310,6 +334,26 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6AD9741EB94F4239A685FF14FE3C79E0"
+            {
+            "SourcePath" = "8:..\\Docs\\Installation_Manual_1.6.docx"
+            "TargetName" = "8:Installation_Manual_1.6.docx"
+            "Tag" = "8:"
+            "Folder" = "8:_DA183E632BC247A283D8826EA0652252"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_8BBB7C8A664F0B2689C852A9CA69A1FE"
@@ -343,12 +387,12 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8D29444C16B44EDFA65D6CE94277D612"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8F5C0F0FF8E741B3BCE56D4C2A35B9A7"
             {
-            "SourcePath" = "8:C:\\Users\\Utente\\Desktop\\RemotePrintWorker_4.8_4\\RemotePrintWorker_4.8_4\\AppSettings\\COLL\\Log4net.config"
+            "SourcePath" = "8:..\\EnvSettings\\PROD\\Log4net.config"
             "TargetName" = "8:Log4net.config"
             "Tag" = "8:"
-            "Folder" = "8:_D873AE2A90C746AC835BBEA5146E7836"
+            "Folder" = "8:_4671B041FB394685880D1A3950F338DB"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -363,12 +407,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B6B0EBF445B444998160AC94B2796C3B"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B529CE30469D45C4A83F77D5067EAEF5"
             {
-            "SourcePath" = "8:C:\\Users\\Utente\\Desktop\\RemotePrintWorker_4.8_4\\RemotePrintWorker_4.8_4\\AppSettings\\PROD\\RemotePrintWorker.exe.config"
+            "SourcePath" = "8:..\\EnvSettings\\COLL\\RemotePrintWorker.exe.config"
             "TargetName" = "8:RemotePrintWorker.exe.config"
             "Tag" = "8:"
-            "Folder" = "8:_D756FA787E3845E090A625950427339D"
+            "Folder" = "8:_2BECF5658BED42D29191378161EB0906"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -383,12 +427,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BE120728F4C84B268D61BB4A7BCF687A"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D125274035FC4BABADA48CE4D44A221B"
             {
-            "SourcePath" = "8:C:\\Users\\Utente\\Desktop\\RemotePrintWorker_4.8_4\\RemotePrintWorker_4.8_4\\AppSettings\\PROD\\Log4net.config"
+            "SourcePath" = "8:..\\EnvSettings\\COLL\\Log4net.config"
             "TargetName" = "8:Log4net.config"
             "Tag" = "8:"
-            "Folder" = "8:_D756FA787E3845E090A625950427339D"
+            "Folder" = "8:_2BECF5658BED42D29191378161EB0906"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -403,12 +447,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C88F8EE62736444596E2E86EB1DF6A3E"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D371218B0F0B4CFD935625351903BF05"
             {
-            "SourcePath" = "8:C:\\Users\\Utente\\Desktop\\RemotePrintWorker_4.8_4\\RemotePrintWorker_4.8_4\\AppSettings\\SVIL\\RemotePrintWorker.exe.config"
+            "SourcePath" = "8:..\\EnvSettings\\PROD\\RemotePrintWorker.exe.config"
             "TargetName" = "8:RemotePrintWorker.exe.config"
             "Tag" = "8:"
-            "Folder" = "8:_94D184F10C9F43F69B748DF8D95AD246"
+            "Folder" = "8:_4671B041FB394685880D1A3950F338DB"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -423,32 +467,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DF89BC3944BE497B8DA94EAE6D0AD432"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F72E5805362B401798FDEA4221A0C520"
             {
-            "SourcePath" = "8:C:\\Users\\Utente\\Desktop\\RemotePrintWorker_4.8_4\\RemotePrintWorker_4.8_4\\AppSettings\\SVIL\\Log4net.config"
+            "SourcePath" = "8:..\\EnvSettings\\SVIL\\Log4net.config"
             "TargetName" = "8:Log4net.config"
             "Tag" = "8:"
-            "Folder" = "8:_94D184F10C9F43F69B748DF8D95AD246"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E9C869C86CD24847AB11779B6F1184C8"
-            {
-            "SourcePath" = "8:C:\\Users\\Utente\\Desktop\\RemotePrintWorker_4.8_4\\RemotePrintWorker_4.8_4\\Installation Manual_1.5.docx"
-            "TargetName" = "8:Installation Manual_1.5.docx"
-            "Tag" = "8:"
-            "Folder" = "8:_DA183E632BC247A283D8826EA0652252"
+            "Folder" = "8:_96EA4859140D41F7A6115F0E65F85BAE"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -513,7 +537,7 @@
             }
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_3EA9F005B6184ADAA68CCA71F7303477"
             {
-            "DefaultLocation" = "8:[ProgramFilesFolder][Manufacturer]\\[ProductName]"
+            "DefaultLocation" = "8:[ProgramFilesFolder]"
             "Name" = "8:#1925"
             "AlwaysCreate" = "11:FALSE"
             "Condition" = "8:"
@@ -548,46 +572,46 @@
                                     "Property" = "8:_2FE6AB5081B24CE0BC6E85259B2B267C"
                                         "Folders"
                                         {
-                                            "{9EF0B969-E518-4E46-987F-47570745A589}:_94D184F10C9F43F69B748DF8D95AD246"
-                                            {
-                                            "Name" = "8:SVIL"
-                                            "AlwaysCreate" = "11:FALSE"
-                                            "Condition" = "8:"
-                                            "Transitive" = "11:FALSE"
-                                            "Property" = "8:_2D89A8B0E91A4D3D8AB305B13DFDD820"
-                                                "Folders"
-                                                {
-                                                }
-                                            }
-                                            "{9EF0B969-E518-4E46-987F-47570745A589}:_D756FA787E3845E090A625950427339D"
-                                            {
-                                            "Name" = "8:PROD"
-                                            "AlwaysCreate" = "11:FALSE"
-                                            "Condition" = "8:"
-                                            "Transitive" = "11:FALSE"
-                                            "Property" = "8:_7C9F69F759944A34AC1CE0BD52F6BAE2"
-                                                "Folders"
-                                                {
-                                                }
-                                            }
-                                            "{9EF0B969-E518-4E46-987F-47570745A589}:_D873AE2A90C746AC835BBEA5146E7836"
+                                            "{9EF0B969-E518-4E46-987F-47570745A589}:_2BECF5658BED42D29191378161EB0906"
                                             {
                                             "Name" = "8:COLL"
                                             "AlwaysCreate" = "11:FALSE"
                                             "Condition" = "8:"
                                             "Transitive" = "11:FALSE"
-                                            "Property" = "8:_165B15599D5A40FDA68262C1F70A1EEC"
+                                            "Property" = "8:_143940F516ED4C4B9EED7FE9F0D77D2E"
                                                 "Folders"
                                                 {
                                                 }
                                             }
-                                            "{9EF0B969-E518-4E46-987F-47570745A589}:_ECC6218041054128A64B655ADDDAD76C"
+                                            "{9EF0B969-E518-4E46-987F-47570745A589}:_4671B041FB394685880D1A3950F338DB"
+                                            {
+                                            "Name" = "8:PROD"
+                                            "AlwaysCreate" = "11:FALSE"
+                                            "Condition" = "8:"
+                                            "Transitive" = "11:FALSE"
+                                            "Property" = "8:_92916337A42D4EA4920C31AC39DA76BF"
+                                                "Folders"
+                                                {
+                                                }
+                                            }
+                                            "{9EF0B969-E518-4E46-987F-47570745A589}:_96EA4859140D41F7A6115F0E65F85BAE"
+                                            {
+                                            "Name" = "8:SVIL"
+                                            "AlwaysCreate" = "11:FALSE"
+                                            "Condition" = "8:"
+                                            "Transitive" = "11:FALSE"
+                                            "Property" = "8:_3B4B60D67B914F67B3EAA4751FD80732"
+                                                "Folders"
+                                                {
+                                                }
+                                            }
+                                            "{9EF0B969-E518-4E46-987F-47570745A589}:_D90D317EB4E24525A639692F32F36A84"
                                             {
                                             "Name" = "8:CERT"
                                             "AlwaysCreate" = "11:FALSE"
                                             "Condition" = "8:"
                                             "Transitive" = "11:FALSE"
-                                            "Property" = "8:_CA244158F0574516AF2AA33B0E667F16"
+                                            "Property" = "8:_9F6D38A6BD9C416990F878CAC955BD4F"
                                                 "Folders"
                                                 {
                                                 }
@@ -639,7 +663,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:RemotePrinterWorker.Installer"
         "ProductCode" = "8:{7F769CFB-C8D9-46E7-B6D2-95C493F657CF}"
-        "PackageCode" = "8:{99FD2004-EB2E-4EB4-8A0D-8CA7675ED9FF}"
+        "PackageCode" = "8:{D675DFF1-E656-484E-8758-8BADEE6633C8}"
         "UpgradeCode" = "8:{6C521841-0DDC-4823-88D9-1B5DFF19693A}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
