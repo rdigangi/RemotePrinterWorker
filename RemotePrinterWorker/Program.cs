@@ -15,11 +15,20 @@ namespace RemotePrinterWorker
 
         private static void Main(string[] args)
         {
-            _logger.Info("Application started as service App.");
-            ServiceBase.Run(new ServiceBase[1]
+            try
             {
+                _logger.Info("Application started as service App.");
+                ServiceBase.Run(new ServiceBase[1]
+                {
             new RemotePrinterWorker()
-            });
+                });
+            }
+            catch(Exception ex)
+            {
+                _logger.Error("Errore in void Main: " + ex.Message);
+                _logger.Error("StackTrace: " + ex.StackTrace);
+            }
+            
         }
     }
 }
